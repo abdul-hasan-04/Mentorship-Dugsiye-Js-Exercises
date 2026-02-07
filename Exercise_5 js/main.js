@@ -13,7 +13,7 @@ console.log(products);
 products = add(2,80);
 console.log(products);
 products = add(99, 1);
-console.log(products);
+console.log();
 
 
 
