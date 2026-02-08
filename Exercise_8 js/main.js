@@ -1,7 +1,7 @@
  let car = {
     make : "Toyota",
     model : "Harrier",
-    year : 2014
+    year : 2014,
 }
 
 console.log(car.make);
