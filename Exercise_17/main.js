@@ -1,4 +1,4 @@
-let temperature = 0;
+let temperature = 13;
 
 if(temperature <= 0){
     console.log("The temperatur is very cold");
