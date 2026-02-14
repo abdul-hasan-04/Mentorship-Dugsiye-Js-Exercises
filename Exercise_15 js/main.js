@@ -13,5 +13,4 @@ for(let eachPerson of peopleInformation){
         console.table(key + " : " + eachPerson [key]);
     }
     console.log("<===================>");
-    
 }
