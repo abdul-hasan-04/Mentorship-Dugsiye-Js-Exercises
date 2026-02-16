@@ -1,5 +1,5 @@
-let score = 80;
+let grade = 70;
 
-const message = score >= 60 ? "You pass" : "You fail!";
+let result = grade>= 60 ? "Pass" : "Fail";
 
-console.log(message);
+console.log(result);
