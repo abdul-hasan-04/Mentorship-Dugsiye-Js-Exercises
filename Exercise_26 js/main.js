@@ -2,9 +2,9 @@
 
 const apiRequestData1 = (call) => {
     alert("Searching data from the API");
-    const apiData = [1, 2, 3, 4];
-    console.log("user Received the data");
-    return call(apiData);
+    const apiData1= {id :9, location: "somalia"};
+    console.log("user Received the data Immediately");
+    return call(apiData1);
 }
 
 apiRequestData1((mydata) => {
@@ -18,9 +18,9 @@ console.log("Loading....");
 const apiRequestData2 = (call) => {
     setTimeout(() => {
         alert("Searching data from the API");
-        const apiData = [4, 5, 6, 7];
-        console.log("user Received the data");
-        return call(apiData);
+        const apiData2 = {id : 10, location: "Kenya"};
+        console.log("user Received the data after 2 seconds.");
+        return call(apiData2);
 
     }, 2000);
 }
